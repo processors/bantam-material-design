@@ -1,0 +1,9 @@
+/* Letter spacing */
+
+.ls-xxl     { letter-spacing: .3em; }
+.ls-xl      { letter-spacing: .2em; }
+.ls-l       { letter-spacing: .1em; }
+.ls-normal  { letter-spacing: normal; }
+.ls-s       { letter-spacing: -.1em; }
+.ls-xs      { letter-spacing: -.2em; }
+.ls-xxs     { letter-spacing: -.3em; }

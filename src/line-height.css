@@ -1,0 +1,49 @@
+/* Line height */
+
+.lh-xxxxl   { line-height: 6.3em; }
+.lh-xxxl    { line-height: 4.8em; }
+.lh-xxl     { line-height: 4em; }
+.lh-xl      { line-height: 3.2em; }
+.lh-l       { line-height: 2.8em; }
+.lh-m       { line-height: 2.4em; }
+.lh-s       { line-height: 2em; }
+
+@media screen and (min-width: 480px) {
+    .bps-lh-xxxxl   { line-height: 6.3em; }
+    .bps-lh-xxxl    { line-height: 4.8em; }
+    .bps-lh-xxl     { line-height: 4em; }
+    .bps-lh-xl      { line-height: 3.2em; }
+    .bps-lh-l       { line-height: 2.8em; }
+    .bps-lh-m       { line-height: 2.4em; }
+    .bps-lh-s       { line-height: 2em; }
+}
+
+@media screen and (min-width: 768px) {
+    .bpm-lh-xxxxl   { line-height: 6.3em; }
+    .bpm-lh-xxxl    { line-height: 4.8em; }
+    .bpm-lh-xxl     { line-height: 4em; }
+    .bpm-lh-xl      { line-height: 3.2em; }
+    .bpm-lh-l       { line-height: 2.8em; }
+    .bpm-lh-m       { line-height: 2.4em; }
+    .bpm-lh-s       { line-height: 2em; }
+}
+
+@media screen and (min-width: 1180px) {
+    .bpl-lh-xxxxl   { line-height: 6.3em; }
+    .bpl-lh-xxxl    { line-height: 4.8em; }
+    .bpl-lh-xxl     { line-height: 4em; }
+    .bpl-lh-xl      { line-height: 3.2em; }
+    .bpl-lh-l       { line-height: 2.8em; }
+    .bpl-lh-m       { line-height: 2.4em; }
+    .bpl-lh-s       { line-height: 2em; }
+}
+
+@media screen and (min-width: 1320px) {
+    .bpxl-lh-xxxxl   { line-height: 6.3em; }
+    .bpxl-lh-xxxl    { line-height: 4.8em; }
+    .bpxl-lh-xxl     { line-height: 4em; }
+    .bpxl-lh-xl      { line-height: 3.2em; }
+    .bpxl-lh-l       { line-height: 2.8em; }
+    .bpxl-lh-m       { line-height: 2.4em; }
+    .bpxl-lh-s       { line-height: 2em; }
+}
