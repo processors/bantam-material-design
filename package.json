@@ -29,7 +29,7 @@
     "precss": "^1.4.0",
     "yargs": "^4.7.1",
     "postcss-custom-properties": "^5.0.1",
-    "bantamcss": "^0.0.71",
+    "bantamcss": "^0.0.71"
   },
   "contributors": [
     {
