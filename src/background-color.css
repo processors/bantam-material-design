@@ -1,1 +1,7 @@
 /* Background color */
+
+.bc-red5        { background-color: var(--red5); }
+.bc-blue5       { background-color: var(--blue5); }
+.bc-orange5     { background-color: var(--orange5); }
+.bc-purple5     { background-color: var(--purple5); }
+.bc-blueGrey5   { background-color: var(--blueGrey5); }

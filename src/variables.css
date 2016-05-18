@@ -1,0 +1,45 @@
+/* Color scheme */
+
+:root {
+    --black: #000;
+    --white: #fff;
+    --transparent: transparent;
+
+    --red5: #F44336;
+
+    --pink5: #E91E63;
+
+    --purple5: #9C27B0;
+
+    --deepPurple5: #673AB7;
+
+    --indigo5: #3F51B5;
+
+    --blue5: #2196F3;
+
+    --lightBlue5: #03A9F4;
+
+    --cyan5: #00BCD4;
+
+    --teal5: #009688;
+
+    --green5: #4CAF50;
+
+    --lightGreen5: #8BC34A;
+
+    --lime5: #CDDC39;
+
+    --yellow5: #FFEB3B;
+
+    --amber5: #FFC107;
+
+    --orange5: #FF9800;
+
+    --deepOrange5: #FF5722;
+
+    --brown5: #795548;
+
+    --grey5: #9E9E9E;
+
+    --blueGrey5: #607D8B;
+}
