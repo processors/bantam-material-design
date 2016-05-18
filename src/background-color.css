@@ -1,5 +1,9 @@
 /* Background color */
 
+.bc-white               { background-color: var(--white); }
+.bc-black               { background-color: var(--black); }
+.bc-transparent         { background-color: var(--transparent); }
+
 .bc-red50               { background-color: var(--red50); }
 .bc-red100              { background-color: var(--red100); }
 .bc-red200              { background-color: var(--red200); }

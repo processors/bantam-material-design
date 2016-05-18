@@ -4,8 +4,10 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <title>Bantam Material Design</title>
-        <link rel="stylesheet" href="css/bantam-material-design.min.css">
         <link rel="stylesheet" href="node_modules/bantamcss/css/bantam.min.css">
+        <link rel="stylesheet" href="node_modules/bantam-utilities/css/css-utilities.min.css">
+        <link rel="stylesheet" href="css/bantam-material-design.min.css">
+
         <style>
             * {
                 margin: 0;
@@ -27,15 +29,93 @@
             }
         </style>
     </head>
-    <body class="ff-roboto color-blueGrey9" style="line-height: 1;">
-        <p class="fs-xxxxxl fw-3">This is a heading.</p>
-        <p class="fs-xxxxl fw-3">This is a heading.</p>
-        <p class="fs-xxxl fw-3">This is a heading.</p>
-        <p class="fs-xxl fw-3">This is a heading.</p>
-        <p class="fs-xl fw-3">This is a heading.</p>
-        <p class="fs-l fw-3">This is a heading.</p>
-        <p class="fs-m fw-3">This is a heading.</p>
-        <p class="fs-s fw-3">This is a heading.</p>
-        <p class="fs-xs fw-3">This is a heading.</p>
+    <body class="ff-roboto color-blueGrey900" style="line-height: 1;">
+        <section class="padding-xxl bc-blueGrey50">
+            <p class="fs-xxxxxl fw-3">This is a heading.</p>
+            <p class="fs-xxxxl fw-3">This is a heading.</p>
+            <p class="fs-xxxl fw-3">This is a heading.</p>
+            <p class="fs-xxl fw-3">This is a heading.</p>
+            <p class="fs-xl fw-3">This is a heading.</p>
+            <p class="fs-l fw-3">This is a heading.</p>
+            <p class="fs-m fw-3">This is a heading.</p>
+            <p class="fs-s fw-3">This is a heading.</p>
+            <p class="fs-xs fw-3">This is a heading.</p>
+        </section>
+
+        <section class="padding-xxl bc-white">
+            <p class="fs-xxxxxl fw-3">This is a heading.</p>
+            <p class="fs-xxxxl fw-3">This is a heading.</p>
+            <p class="fs-xxxl fw-3">This is a heading.</p>
+            <p class="fs-xxl fw-3">This is a heading.</p>
+            <p class="fs-xl fw-3">This is a heading.</p>
+            <p class="fs-l fw-3">This is a heading.</p>
+            <p class="fs-m fw-3">This is a heading.</p>
+            <p class="fs-s fw-3">This is a heading.</p>
+            <p class="fs-xs fw-3">This is a heading.</p>
+        </section>
+
+        <section class="padding-xxl bc-blueGrey50">
+            <button class="bc-blue500 bw-0 padding-s color-white fs-s br-s tt-uppercase fw-5 cursor-pointer os-none">Button</button>
+        </section>
+
+        <section class="padding-xxl bc-white">
+            <button class="bc-blue500 bw-0 padding-s color-white fs-s br-circle bs-active tt-uppercase fw-5 cursor-pointer os-none" style="width: 80px; height: 80px;">H</button>
+        </section>
+
+        <section class="padding-xxl bc-tealA100">
+            <p class="fs-xxxxxl fw-3 color-red500">This is a heading.</p>
+        </section>
+
+        <section class="padding-xxl bc-blueGrey50">
+            <div class="width-90 centered" style="max-width: 480px;">
+                <div class="mb-m">
+                    <div class="bc-white padding-m br-s bs-active">
+                        <div class="mb-l">
+                            <p class="fs-xl">Unlimited music now</p>
+                            <p class="fs-s color-blueGrey500">Listen to your favourite artists and albums wherever and whenever, online and offline.</p>
+                        </div>
+                        <button class="bc-transparent bw-0 padding-s color-blueGrey900 fs-s br-s tt-uppercase fw-5 cursor-pointer os-none">Listen now</button>
+                    </div>
+                </div>
+                <div class="mb-m">
+                    <div class="br-s bs-active">
+                        <div class="position-relative br-s bs-cover" style="height: 200px; background-image: url('https://images.unsplash.com/photo-1460500063983-994d4c27756c?format=auto&auto=compress&dpr=1&crop=entropy&fit=crop&w=1439&h=959&q=80');">
+                            <div class="position-absolute padding-m" style="bottom: 0; left: 0;">
+                                <p class="fs-xl color-white">Top 10 Australian Beaches</p>
+                            </div>
+                        </div>
+                        <div class="bc-white padding-m overflow-hidden">
+                            <div class="mb-l">
+                                <span class="display-block mb-xs fs-s color-blueGrey500">Number 10</span>
+                                <p class="mb-xs fs-xl">Unlimited music now</p>
+                                <p class="fs-s color-blueGrey500">Listen to your favourite artists and albums wherever and whenever, online and offline.</p>
+                            </div>
+                            <div class="inline">
+                                <div>
+                                    <button class="bc-transparent bw-0 padding-s color-blueGrey900 fs-s br-s tt-uppercase fw-5 cursor-pointer os-none">Share</button>
+                                </div>
+                                <div>
+                                    <button class="bc-transparent bw-0 padding-s color-blueGrey900 fs-s br-s tt-uppercase fw-5 cursor-pointer os-none">Explore</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-m">
+                    <div class="br-s bs-active">
+                        <div class="position-relative br-s bs-cover" style="height: 200px; background-image: url('https://images.unsplash.com/photo-1460500063983-994d4c27756c?format=auto&auto=compress&dpr=1&crop=entropy&fit=crop&w=1439&h=959&q=80');">
+                            <div class="position-absolute padding-m" style="bottom: 0; left: 0;">
+                                <span class="display-block mb-xs fs-s color-white opacity-80">Number 10</span>
+                                <p class="fs-xl color-white">Top 10 Australian Beaches</p>
+                            </div>
+                        </div>
+                        <div class="bc-white padding-m overflow-hidden">
+                            <p class="mb-xs fs-xl">Unlimited music now</p>
+                            <p class="fs-s color-blueGrey500">Listen to your favourite artists and albums wherever and whenever, online and offline.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </body>
 </html>

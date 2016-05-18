@@ -5,6 +5,18 @@
 :root {/* Color scheme *//* Spacing  */
 }
 /* Background color */
+.bc-white {
+
+    background-color: #fff
+}
+.bc-black {
+
+    background-color: #000
+}
+.bc-transparent {
+
+    background-color: transparent
+}
 .bc-red50 {
 
     background-color: #FFEBEE
@@ -1132,6 +1144,18 @@
 /* More distant UI elements like FAB buttons and headers are on second level. Jump to third level on hover. */
 /* Most distant UI elements like modals are on fourth level. Nowhere to jump. */
 /* Color */
+.color-white {
+
+    color: #fff
+}
+.color-black {
+
+    color: #000
+}
+.color-transparent {
+
+    color: transparent
+}
 .color-red50 {
 
     color: #FFEBEE

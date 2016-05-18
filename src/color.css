@@ -1,5 +1,9 @@
 /* Color */
 
+.color-white               { color: var(--white); }
+.color-black               { color: var(--black); }
+.color-transparent         { color: var(--transparent); }
+
 .color-red50               { color: var(--red50); }
 .color-red100              { color: var(--red100); }
 .color-red200              { color: var(--red200); }
