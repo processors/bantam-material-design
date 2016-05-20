@@ -29,8 +29,8 @@
     "precss": "^1.4.0",
     "yargs": "^4.7.1",
     "postcss-custom-properties": "^5.0.1",
-    "bantamcss": "^0.0.71",
-    "bantam-utilities": "^0.0.1"
+    "bantamcss": "^0.0.8",
+    "bantam-utilities": "^0.0.21"
   },
   "contributors": [
     {
