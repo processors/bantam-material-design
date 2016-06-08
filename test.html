@@ -6,6 +6,7 @@
         <title>Bantam Material Design</title>
         <link rel="stylesheet" href="node_modules/bantamcss/css/bantam.min.css">
         <link rel="stylesheet" href="node_modules/bantam-utilities/css/bantam-utilities.min.css">
+        <link rel="stylesheet" href="node_modules/bantam-grid/css/bantam-grid.min.css">
         <link rel="stylesheet" href="css/bantam-material-design.min.css">
 
         <style>
@@ -13,6 +14,8 @@
                 margin: 0;
                 padding: 0;
                 box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                -webkit-box-sizing: border-box;
             }
 
             h1,
@@ -31,43 +34,7 @@
     </head>
     <body class="ff-roboto color-blueGrey900" style="line-height: 1;">
         <section class="padding-xxl bc-blueGrey50">
-            <p class="fs-xxxxxl fw-3">This is a heading.</p>
-            <p class="fs-xxxxl fw-3">This is a heading.</p>
-            <p class="fs-xxxl fw-3">This is a heading.</p>
-            <p class="fs-xxl fw-3">This is a heading.</p>
-            <p class="fs-xl fw-3">This is a heading.</p>
-            <p class="fs-l fw-3">This is a heading.</p>
-            <p class="fs-m fw-3">This is a heading.</p>
-            <p class="fs-s fw-3">This is a heading.</p>
-            <p class="fs-xs fw-3">This is a heading.</p>
-        </section>
-
-        <section class="padding-xxl bc-white">
-            <p class="fs-xxxxxl fw-3">This is a heading.</p>
-            <p class="fs-xxxxl fw-3">This is a heading.</p>
-            <p class="fs-xxxl fw-3">This is a heading.</p>
-            <p class="fs-xxl fw-3">This is a heading.</p>
-            <p class="fs-xl fw-3">This is a heading.</p>
-            <p class="fs-l fw-3">This is a heading.</p>
-            <p class="fs-m fw-3">This is a heading.</p>
-            <p class="fs-s fw-3">This is a heading.</p>
-            <p class="fs-xs fw-3">This is a heading.</p>
-        </section>
-
-        <section class="padding-xxl bc-blueGrey50">
-            <button class="bc-blue500 bw-0 padding-s color-white fs-xs ls-l br-s tt-uppercase fw-5 cursor-pointer os-none">Button</button>
-        </section>
-
-        <section class="padding-xxl bc-white">
-            <button class="bc-blue500 bw-0 padding-s color-white fs-xs ls-l br-circle bs-active tt-uppercase fw-5 cursor-pointer os-none" style="width: 80px; height: 80px;">H</button>
-        </section>
-
-        <section class="padding-xxl bc-tealA100">
-            <p class="fs-xxxxxl fw-3 color-red500">This is a heading.</p>
-        </section>
-
-        <section class="padding-xxl bc-blueGrey50">
-            <div class="width-90 centered" style="max-width: 360px;">
+            <div class="width-90 horizontallyCenter" style="max-width: 360px;">
                 <div class="mb-m">
                     <div class="bc-white padding-m br-s bs-active">
                         <div class="mb-l">
@@ -118,41 +85,183 @@
             </div>
         </section>
 
-        <section class="padding-xl bc-white ta-center cf">
-            <div class="width-90 centered cf" style="max-width: 900px;">
+        <section class="padding-xl bc-white ta-center clearfix">
+            <div class="width-90 horizontallyCenter clearfix" style="max-width: 900px;">
                 <div class="inline">
                     <div class="va-middle">
                         <p class="fs-m">This is a call to action.</p>
                     </div>
                     <div class="va-middle ml-m">
-                        <button class="bc-blue500 bw-0 padding-s color-white fs-xs ls-l br-s tt-uppercase fw-6 cursor-pointer os-none">Learn more</button>
+                        <a class="display-inlineBlock bc-blue500 bw-0 padding-s color-white fs-xs ls-l br-s tt-uppercase fw-6 cursor-pointer os-none">Learn more</a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="pt-xxl pb-xxl bc-blueGrey50 ta-center cf">
-            <div class="width-90 centered cf" style="max-width: 900px;">
+        <section class="pt-xxl pb-xxl bc-blueGrey50 ta-center clearfix">
+            <div class="width-90 horizontallyCenter clearfix" style="max-width: 900px;">
                 <div class="bpl-width-50 bpl-float-left pt-xl pl-xl">
-                    <h4 class="mb-s fs-xxl lh-xxl fw-3">This is a heading.</h4>
-                    <p class="mb-l fs-m lh-m color-blueGrey500">This is a call to action. Listen to your favourite artists and albums wherever and whenever, online and offline. This is just some more text.</p>
-                    <button class="bc-blue500 bw-0 padding-s color-white fs-xs ls-l br-s tt-uppercase fw-6 cursor-pointer os-none">Learn more</button>
+                    <h4 class="mb-l fs-xxl lh-xxl fw-3">This is a heading.</h4>
+                    <p class="mb-l fs-l fw-3 lh-l">This is a call to action. Listen to your favourite artists and albums wherever and whenever, online and offline. This is just some more text.</p>
+                    <a class="mt-s display-inlineBlock fs-m ls-l td-none color-blue500" href="#">Link to something</a>
                 </div>
                 <div class="bpl-width-50 bpl-float-left pt-xl pl-xl">
-                    <h4 class="mb-s fs-xxl lh-xxl fw-3">This is a heading.</h4>
-                    <p class="mb-l fs-m lh-m color-blueGrey500">This is a call to action. Listen to your favourite artists and albums wherever and whenever, online and offline. This is just some more text.</p>
-                    <button class="bc-blue500 bw-0 padding-s color-white fs-xs ls-l br-s tt-uppercase fw-6 cursor-pointer os-none">Learn more</button>
+                    <h4 class="mb-l fs-xxl lh-xxl fw-3">This is a heading.</h4>
+                    <p class="mb-l fs-l fw-3 lh-l">This is a call to action. Listen to your favourite artists and albums wherever and whenever, online and offline. This is just some more text.</p>
+                    <a class="mt-s display-inlineBlock fs-m ls-l td-none color-blue500" href="#">Link to something</a>
                 </div>
             </div>
         </section>
 
-        <section class="pt-xxl pb-xxl bc-white ta-center cf">
-            <div class="width-90 centered cf" style="max-width: 900px;">
+        <section class="pt-xxl pb-xxl bc-white ta-center clearfix">
+            <div class="width-90 horizontallyCenter clearfix" style="max-width: 700px;">
                 <hgroup class="mb-xl">
                     <h2 class="fs-xxxl lh-xxxl fw-3">This is a heading.</h2>
-                    <h3 class="mt-xs fs-l lh-m fw-3 color-blueGrey500">This is some small text to support the big heading above.</h3>
+                    <h3 class="mt-xl fs-xl lh-xxl fw-3">You need the potential to design something completely new. Framer is a design tool that uses code to make anything possible. Pioneer new patterns and groundbreaking designs. Find the best solution, not just the expected one.</h3>
                 </hgroup>
-                <button class="bc-blue500 bw-0 padding-s color-white fs-xs ls-l br-s tt-uppercase fw-6 cursor-pointer os-none">Learn more</button>
+                <a class="mt-s display-inlineBlock fs-l ls-l td-none color-blue500" href="#">Link to something</a>
+            </div>
+        </section>
+
+        <section class="pt-xxl pb-xxl bc-blueGrey50 clearfix">
+            <div class="width-90 horizontallyCenter clearfix" style="max-width: 700px;">
+                <h2 class="fs-xxxl lh-xxxl fw-3">This is a heading.</h2>
+                <div class="clearfix" style="display: flex; flex-wrap: wrap;">
+                    <div class="padding-m" style="width: 33.3333%; display: flex;">
+                        <div class="padding-m bc-white br-s width-100" style="display: flex; flex-direction: column;">
+                            <div class="mb-s">
+                                <h2 class="fs-l">Title</h2>
+                            </div>
+                            <p class="fs-s lh-m" style="flex: 1 0 auto;">You need the potential to design something completely new. Framer is a design tool that uses code to make anything possible. Pioneer new patterns and groundbreaking designs. Find the best solution, not just the expected one.</p>
+                            <div class="mt-s">
+                                <a class="fs-s color-blue500 td-none" href="">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="padding-m" style="width: 33.3333%; display: flex;">
+                        <div class="padding-m bc-white br-s width-100" style="display: flex; flex-direction: column;">
+                            <div class="mb-s">
+                                <h2 class="fs-l">Title</h2>
+                            </div>
+                            <p class="fs-s lh-m" style="flex: 1 0 auto;">You need the potential to design something completely new.</p>
+                            <div class="mt-s">
+                                <a class="fs-s color-blue500 td-none" href="">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="padding-m" style="width: 33.3333%; display: flex;">
+                        <div class="padding-m bc-white br-s width-100" style="display: flex; flex-direction: column;">
+                            <div class="mb-s">
+                                <h2 class="fs-l">Title</h2>
+                            </div>
+                            <p class="fs-s lh-m" style="flex: 1 0 auto;">You need the potential to design something completely new. Framer is a design tool that uses code to make anything possible.</p>
+                            <div class="mt-s">
+                                <a class="fs-s color-blue500 td-none" href="">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="padding-m" style="width: 33.3333%; display: flex;">
+                        <div class="padding-m bc-white br-s width-100" style="display: flex; flex-direction: column;">
+                            <div class="mb-s">
+                                <h2 class="fs-l">Title</h2>
+                            </div>
+                            <p class="fs-s lh-m" style="flex: 1 0 auto;">You need the potential to design something completely new. Framer is a design tool that uses code to make anything possible. Pioneer new patterns and groundbreaking designs. Find the best solution, not just the expected one.</p>
+                            <div class="mt-s">
+                                <a class="fs-s color-blue500 td-none" href="">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="padding-m" style="width: 33.3333%; display: flex;">
+                        <div class="padding-m bc-white br-s width-100" style="display: flex; flex-direction: column;">
+                            <div class="mb-s">
+                                <h2 class="fs-l">Title</h2>
+                            </div>
+                            <p class="fs-s lh-m" style="flex: 1 0 auto;">You need the potential to design something completely new.</p>
+                            <div class="mt-s">
+                                <a class="fs-s color-blue500 td-none" href="">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="padding-m" style="width: 33.3333%; display: flex;">
+                        <div class="padding-m bc-white br-s width-100" style="display: flex; flex-direction: column;">
+                            <div class="mb-s">
+                                <h2 class="fs-l">Title</h2>
+                            </div>
+                            <p class="fs-s lh-m" style="flex: 1 0 auto;">You need the potential to design something completely new. Framer is a design tool that uses code to make anything possible.</p>
+                            <div class="mt-s">
+                                <a class="fs-s color-blue500 td-none" href="">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pt-xxl pb-xxl bc-white clearfix">
+            <div class="width-90 horizontallyCenter clearfix" style="max-width: 1200px;">
+                <div class="mb-xxl clearfix">
+                    <div class="float-left width-33">
+                        <h1 class="fs-xxxxxl fw-6" style="letter-spacing: 6px;">A<span class="fw-3">/</span></h1>
+                    </div>
+                    <div class="float-left width-66">
+                        <p class="fs-xxxxxl ls-xxs" style="letter-spacing: -6px;">Design<br>&amp; Engine–<br>ering</p>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="float-left width-33" style="min-height: 1px; min-width: 1px;"></div>
+                    <div class="float-left width-66">
+                        <div class="">
+                            <div class="float-left width-50">
+                                <p class="fs-l lh-l">AREA 17 is a digital product agency with studios in Paris and New York. Founded in 2003, we are independently owned and creatively motivated.</p>
+                            </div>
+                            <div class="float-left width-50">
+                                <p class="fs-l lh-l">AREA 17 also refers to the visual cortex of the brain where sensory data is received, patterns recognized, and images formulated.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pt-xxl pb-xxl bc-blueGrey50 clearfix">
+            <div class="width-90 bps-width-80 bpm-width-70 bpl-width-60 bpxl-width-50 horizontallyCenter clearfix">
+                <div class="grid">
+                    <div class="col-12 bps-col-6 bpm-col-3">
+                        <h2 class="fs-l lh-l fw-3">This is a heading.</h2>
+                        <h3 class="mt-xs fs-s lh-s color-blueGrey500">This is some small text to support the big heading above.</h3>
+                        <a class="mt-s display-inlineBlock fs-s lh-s color-blue500" href="#">Link to something</a>
+                    </div>
+                    <div class="col-12 bps-col-6 bpm-col-3">
+                        <h2 class="fs-l lh-l fw-3">This is a heading.</h2>
+                        <h3 class="mt-xs fs-s lh-s color-blueGrey500">This is some small text to support the big heading above.</h3>
+                        <a class="mt-s display-inlineBlock fs-s lh-s color-blue500" href="#">Link to something</a>
+                    </div>
+                    <div class="col-12 bps-col-6 bpm-col-3">
+                        <h2 class="fs-l lh-l fw-3">This is a heading.</h2>
+                        <h3 class="mt-xs fs-s lh-s color-blueGrey500">This is some small text to support the big heading above.</h3>
+                        <a class="mt-s display-inlineBlock fs-s lh-s color-blue500" href="#">Link to something</a>
+                    </div>
+                    <div class="col-12 bps-col-6 bpm-col-3">
+                        <h2 class="fs-l lh-l fw-3">This is a heading.</h2>
+                        <h3 class="mt-xs fs-s lh-s color-blueGrey500">This is some small text to support the big heading above.</h3>
+                        <a class="mt-s display-inlineBlock fs-s lh-s color-blue500" href="#">Link to something</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pt-xxl pb-xxl bc-white clearfix">
+            <div class="width-90 horizontallyCenter clearfix" style="max-width: 900px;">
+                <div class="float-left">
+                    <div class="col-12 bps-col-6 bpm-col-3">
+                        <h3 class="mt-xs fs-s lh-s color-blueGrey500">This is some small text to support the big heading above.</h3>
+                    </div>
+                </div>
+                <div class="float-right">
+                    <div class="col-12 bps-col-6 bpm-col-3">
+                        <a class="mt-s display-inlineBlock fs-s lh-s color-blue500" href="#">Link to something</a>
+                    </div>
+                </div>
             </div>
         </section>
     </body>
