@@ -276,3 +276,28 @@
 .color-blueGrey700         { color: var(--blueGrey700); }
 .color-blueGrey800         { color: var(--blueGrey800); }
 .color-blueGrey900         { color: var(--blueGrey900); }
+
+@media screen and (min-width: 480px) {
+    .color-white--hover:hover               { color: var(--white); }
+    .color-black--hover:hover               { color: var(--black); }
+    .color-red500--hover:hover              { color: var(--red500); }
+    .color-pink500--hover:hover             { color: var(--pink500); }
+    .color-purple500--hover:hover           { color: var(--purple500); }
+    .color-deepPurple500--hover:hover       { color: var(--deepPurple500); }
+    .color-indigo500--hover:hover           { color: var(--indigo500); }
+    .color-blue500--hover:hover             { color: var(--blue500); }
+    .color-lightBlue500--hover:hover        { color: var(--lightBlue500); }
+    .color-cyan500--hover:hover             { color: var(--cyan500); }
+    .color-teal500--hover:hover             { color: var(--teal500); }
+    .color-green500--hover:hover            { color: var(--green500); }
+    .color-lightGreen500--hover:hover       { color: var(--lightGreen500); }
+    .color-lime500--hover:hover             { color: var(--lime500); }
+    .color-yellow500--hover:hover           { color: var(--yellow500); }
+    .color-amber500--hover:hover            { color: var(--amber500); }
+    .color-orange500--hover:hover           { color: var(--orange500); }
+    .color-deepOrange500--hover:hover       { color: var(--deepOrange500); }
+    .color-brown500--hover:hover            { color: var(--brown500); }
+    .color-grey500--hover:hover             { color: var(--grey500); }
+    .color-blueGrey500--hover:hover         { color: var(--blueGrey500); }
+    .color-blueGrey900--hover:hover         { color: var(--blueGrey900); }
+}
